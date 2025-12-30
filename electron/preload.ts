@@ -1,0 +1,1 @@
+import { contextBridge, ipcRenderer } from 'electron'; contextBridge.exposeInMainWorld('ravenIpc', {invoke: (channel, data) => ipcRenderer.invoke(channel, data), on: (channel, callback) => ipcRenderer.on(channel, (event, data) => callback(data))});

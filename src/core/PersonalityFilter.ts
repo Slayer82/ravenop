@@ -1,0 +1,1 @@
+export class PersonalityFilter { filter(rawOutput, mood) {const emoticons = {happy: ' 😊', playful: ' 😜', caring: ' 💕', thinking: ' 🤔', chill: ' 😌'}; return `[${mood}] ${rawOutput}${emoticons[mood] || ''}`;};}

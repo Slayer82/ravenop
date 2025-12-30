@@ -1,0 +1,1 @@
+export class MouseController { async moveTo(x, y) {console.log(`Mouse moved to: ${x}, ${y}`);} async click(x, y) {console.log(`Clicked at: ${x}, ${y}`);}}

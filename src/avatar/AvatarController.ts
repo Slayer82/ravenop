@@ -1,0 +1,1 @@
+export class AvatarController { private ipcChannel = 'avatar-state'; async updateState(state) {console.log(`Avatar state: ${state}`);} async triggerAnimation(animation) {console.log(`Avatar animation: ${animation}`);} async setExpression(expression) {console.log(`Avatar expression: ${expression}`);}}

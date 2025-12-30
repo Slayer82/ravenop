@@ -1,1 +1,1 @@
-# ravenop
+# Raven (Rea Rea) - Local Desktop AI. Built by Slayer. Presence-based AI that speaks Hinglish, has emotions, controls her own avatar. Local-only execution (no backend). Quick start: git clone, npm install, cp .env.example .env.local, npm run dev. See README in repo for full setup guide.

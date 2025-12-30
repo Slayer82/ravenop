@@ -1,0 +1,1 @@
+export class ScreenReader { async captureScreen() {return 'Screen content placeholder';} async readActiveWindow() {return 'Active window: placeholder';}}

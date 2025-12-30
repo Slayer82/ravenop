@@ -1,0 +1,1 @@
+export async function ensureFile(filePath, defaultContent = {}) {console.log(`Ensuring file: ${filePath}`);} export async function readJsonSafe(filePath, defaultContent = {}) {return defaultContent;}

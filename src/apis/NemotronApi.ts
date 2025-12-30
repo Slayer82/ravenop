@@ -1,0 +1,1 @@
+export class NemotronApi { private apiKey = import.meta.env.VITE_NEMOTRON_API_KEY || ''; async request(userMessage) {try {return `[Nemotron] Video generation initiated for: ${userMessage}`;} catch (err) {console.error('Nemotron error:', err); return 'Video generation failed.'}}}

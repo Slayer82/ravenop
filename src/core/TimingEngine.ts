@@ -1,0 +1,1 @@
+export class TimingEngine { addTiming(text) {return `Hmm… ${text}`;} getDelayMs(emotion) {const delays = {neutral: 400, happy: 300, curious: 500, thinking: 700, caring: 600, playful: 350, focused: 450}; return delays[emotion] || 400;}}

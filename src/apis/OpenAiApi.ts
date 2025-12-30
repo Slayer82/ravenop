@@ -1,0 +1,1 @@
+export class OpenAiApi { private apiKey = import.meta.env.VITE_OPENAI_API_KEY || ''; async request(userMessage, history) {try {return `[OpenAI] Processed: ${userMessage}`;} catch (err) {console.error('OpenAI error:', err); return 'Sorry, something went wrong.'}}}

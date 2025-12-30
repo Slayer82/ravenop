@@ -1,0 +1,1 @@
+export class DeepSeekApi { private apiKey = import.meta.env.VITE_DEEPSEEK_API_KEY || ''; async request(userMessage, history) {try {return `[DeepSeek] Code response for: ${userMessage}`;} catch (err) {console.error('DeepSeek error:', err); return 'Code processing failed.'}}}

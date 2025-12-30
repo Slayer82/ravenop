@@ -1,0 +1,1 @@
+export class KeyboardController { async type(text) {console.log(`Typed: ${text}`);} async pressKey(key) {console.log(`Pressed: ${key}`);}}

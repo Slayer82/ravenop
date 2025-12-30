@@ -1,0 +1,1 @@
+import { MemoryManager } from '../memory/MemoryManager'; export class PermissionManager { private memory; constructor(memory) {this.memory = memory;} async askPermission(action) {console.log(`Permission requested for: ${action}`); return true;}}
